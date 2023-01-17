@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+.header {
+    .container {
+        .header-df {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+
+            .left {
+                .welcome {
+                    font-family: 'Titillium Web', sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 16px;
+                    letter-spacing: 0.1em;
+                }
+
+                .lets {
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 70px;
+                    line-height: 70px;
+                    text-transform: uppercase;
+                    color: #3D3D3D;
+
+                    span {
+                        color: #46A358;
+                    }
+                }
+
+                .we {
+                    color: #727272;
+                }
+
+                .button1 {
+                    color: white;
+                    background: #46A358;
+                    border: 1px solid #46A358;
+                    height: 40px;
+                    width: 140px;
+                    border-radius: 6px;
+                }
+            }
+
+            .right {
+                .plantbig {
+                    width: 100%;
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+}
+
+
+@media all and (max-width: 1211px) {
+    .lets{
+        font-weight: 900;
+        font-size: 50px !important; 
+    }
+
+
+}
+@media all and (max-width: 768px) {
+    .lets{
+        font-weight: 100;
+        font-size: 30px !important; 
+        
+        line-height: 30px !important;
+    }
+
+}

@@ -1,0 +1,172 @@
+.allplants {
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        .filter {
+            width: 20%;
+            background: #FBFBFB;
+
+            h5 {
+                margin-bottom: 20px;
+                font-weight: 700;
+            }
+
+            .filterdf {
+               
+                width: 100%;
+                background: #FBFBFB;
+                font-weight: 700;
+                color: rgb(72, 72, 72);
+                .leftfilt{width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    text-align-last: left;
+                    .btn{
+                        width: 100%;
+                    }
+                }
+                .greencolor {
+                    color: #46A358;
+                }
+            }
+
+            .range {
+                background: #FBFBFB;
+
+                .rangefilt {
+                    color: #46A358;
+                }
+
+                h6 {
+                    span {
+                        color: #46A358;
+                        font-weight: 700;
+                    }
+                }
+
+                button {
+                    width: 90px;
+                    font-weight: 700;
+                    margin: 10px 0px;
+                }
+            }
+
+            .size {
+                background: #FBFBFB;
+                margin-top: 20px;
+
+                .size-df {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    font-weight: 700;
+                    color: rgb(72, 72, 72);
+                }
+            }
+
+            .banner {
+                width: 100%;
+                background: #FBFBFB;
+
+                img {
+                    margin: 20px 0px;
+                    width: 100%;
+
+                }
+            }
+        }
+
+        .products {
+            width: 90%;
+            margin: 0px auto;
+
+            .mini-navbar {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 20px;
+                
+                .allPlants {
+                    color: #46A358;
+                    border-bottom: 2px solid #46A358;
+                }
+                input{
+                    width: 300px;
+                    height: 40px;
+                    text-align: start;
+                    padding: 20px;
+                    border: 2px solid #46A358;
+                    border-radius: 20px;
+                    outline: 0;
+                    
+                }
+                input:focus{
+                    border: #46A358 2px solid;
+                }
+            }
+
+            .maped {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 20px;
+                .cardPlants{
+                    transition: 0.5s;
+                }
+                img{
+                    width: 100%;
+                    background: white ;
+                }
+                .info {
+                    width: 100%;
+                    .price {
+                        margin-top: 4px;
+                        font-weight: 900;
+                        font-size: 13px;
+                        color: #46A358;
+                        cursor: pointer;
+                    }
+                }
+
+            }
+            .cardPlants:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+.cardPlants img{
+    width: 100%;
+    height: max-content;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 1211px) {
+    .maped {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-gap: 20px;
+      
+
+    }
+
+}
+
+@media all and (max-width: 781px) {
+    .maped {
+        display: grid;
+        grid-template-columns: repeat(2, 0.5fr) !important;
+        grid-gap: 20px;
+      
+
+    }
+
+}

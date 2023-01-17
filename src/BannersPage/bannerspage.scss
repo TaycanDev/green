@@ -1,0 +1,81 @@
+.banner {
+    .summerSalePic{
+        position: absolute;
+        top: 250px;
+        left: -181px;
+        transform: rotate(90deg);
+        width: 40%;
+        height: 150px;
+        opacity: 0.8;
+    }
+    .container {
+        width: 100%;
+
+        .flex {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+            .bannersTexts {
+                h2 {
+                    font-weight: 700;
+                    font-size: 35px;
+                }
+
+                p {
+                    font-size: 15px;
+                    margin: 30px 0px;
+                }
+
+                .buttons {
+                    width: 400px;
+                    display: flex;
+                    align-items: center;
+
+                    .betn {
+                        height: 38px;
+                        width: 38px;
+                        border-radius: 29px;
+                        border: 2px solid #46A358;
+                        background: #46A358;
+                    }
+
+                    span {
+                        margin: 0px 15px;
+                    }
+
+                    .batn {
+                        margin: 0px 15px;
+                        width: 100px;
+                        height: 38px;
+                        background: none;
+                        background: #46A358;
+                        color: white;
+                        border: 2px solid #46A358;
+                        border-radius: 5px;
+                    }
+
+                    .btn {
+                        width: 120px;
+                        height: 38px;
+                        background: none;
+                        border: 1px solid #46A358;
+                        color: #46A358;
+                    }
+
+                    .btn:hover {
+                        background: #46A358;
+                        color: white;
+                    }
+                }
+            }
+
+            .bannerPic {
+                img {
+                    width: 250px;
+                    height: 250px;
+                }
+            }
+        }
+    }
+}

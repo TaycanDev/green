@@ -1,0 +1,131 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 20px 0;
+
+  .container {
+    .left {
+      padding: 10px;
+      align-items: center;
+      display: flex;
+      justify-content: space-evenly;
+      img {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+.btnn{
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 7px;
+background-color: #46a358;
+}
+.btnn2{
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 7px;
+  font-size: 18px;
+  font-weight: 500;
+background: white;
+color: rgb(255, 0, 0);
+}
+    .center {
+      margin-top: 30px;
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+
+        a {
+          text-decoration: none;
+          color: #46a358;
+          list-style: none;
+          font-size: 20px;
+        }
+        .h {
+          border-bottom: 3px solid #46a358;
+          border-width: 100%;
+        }
+        .home {
+          transition: 0.5s;
+          color: #46a358;
+          display: inline-block;
+        }
+
+        .home::after {
+          content: "";
+          display: block;
+          width: 0;
+          height: 2px;
+          background: #46a358;
+          transition: width 0.5s;
+        }
+
+        .home:hover::after {
+          width: 100%;
+        }
+
+        li {
+          list-style: none;
+        }
+      }
+    }
+
+    .right {
+      
+      a {
+        color: #46a358;
+      }
+      .icon {
+        width: 120px;
+        height: 45px;
+        color:#46a358;
+        background-color: aliceblue;
+      }
+    }
+  }
+}
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+
+  .button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    .button__yes {
+      width: 100%;
+      background: #46a358;
+      height: 40px;
+      border: none;
+      border-radius: 20px;
+      color: white;
+    }
+    .button__no {
+      background: red;
+      width: 100%;
+      height: 40px;
+      border: none;
+      border-radius: 20px;
+      color: white;
+    }
+  }
+}

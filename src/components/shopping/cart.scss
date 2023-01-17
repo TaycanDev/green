@@ -1,0 +1,160 @@
+.container {
+    .left {
+        .products-bar {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+
+            .prices {
+                display: flex;
+                justify-content: space-between;
+                width: 50%;
+            }
+        }
+
+        .display-shopping {
+            .cartFlex {
+                display: flex;
+                justify-content: space-between;
+                padding: 10px;
+                border: 1px solid #FBFBFB;
+                background: #FBFBFB;
+                margin: 10px;
+
+                .imageAndname {
+                    display: flex;
+                    width: 25%;
+
+                    img {
+                        width: 100px;
+                        height: 100px;
+                    }
+
+                    h5 {
+                        margin: auto;
+                    }
+                }
+
+                .all {
+                    width: 50%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    h5 {
+                        margin-top: 35px;
+                        margin-left: -135px;
+                        color:
+                            #727272;
+                        font-weight: 400;
+                    }
+                    .total{
+                        color: #46A358;
+                        font-weight: 800;
+                    }
+
+                    .buttons {
+                        margin-top: 33px;
+                        margin-left: -140px;
+
+                        button {
+                            border: 1px solid #46A358;
+                            background: #46A358;
+                            border-radius: 20px;
+                            color: white;
+                            width: 30px;
+                            height: 30px;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }
+                    }
+
+                    .total {
+                        margin-right: -120px;
+                    }
+
+                    .trash {
+                        cursor: pointer;
+                        color: black;
+                        margin-top: 35px;
+                    }
+                }
+            }
+        }
+
+        .cardShopping {
+            text-align: center;
+            width: 50%;
+            margin: auto;
+            margin-top: 20px;
+            padding: 10px;
+            background: #FBFBFB;
+
+            .totalH {
+                margin-bottom: 20px;
+                padding-bottom: 10px;
+                color:
+                    #3D3D3D;
+                text-align: center;
+                font-weight: 700;
+                border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
+            }
+            .text{
+                width: 95%;
+                .subTotal{
+                    margin: auto;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                .shipping{
+                    margin: auto;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                .cartTotal{
+                    display: flex;
+                    justify-content: space-around;
+                }
+            }
+            button{
+                width: 100%;
+                margin: 20px 0px;
+                background: #46A358;color: white;
+            }
+            a{
+                color: #46A358;
+                list-style: none;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between; 
+    background: whitesmoke;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white; /* Fallback color */
+    background-color: white;
+    position: absolute;
+    gap: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    input{
+        width: 200px;
+        height: 50px;
+        border-radius: 5px;
+        font-weight: 700;
+    }
+}
+@media all and (max-width:990px) {
+    .pricer{
+        display: none
+    }
+
+}

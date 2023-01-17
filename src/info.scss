@@ -1,0 +1,80 @@
+.container {
+    .info {
+        display: flex;
+        justify-content: space-around;
+
+        img {
+            width: 300px;
+            height: 300px;
+
+        }
+
+        .info-texts {
+            align-items: flex-start;
+            width: 40%;
+
+            .grprice {
+                color: #46A358;
+                font-weight: 900;
+            }
+
+            .buttons {
+                width: 400px;
+                display: flex;
+                align-items: center;
+
+                .betn {
+                    height: 38px;
+                    width: 38px;
+                    border-radius: 29px;
+                    border: 1px solid #46A358;
+                    background: #46A358;
+                }
+
+                span {
+                    margin: 0px 15px;
+                }
+
+                .batn {
+                    margin: 0px 15px;
+                    width: 100px;
+                    height: 38px;
+                    background: none;
+                    background: #46A358;
+                    color: white;
+                    border: 1px solid #46A358;
+                    border-radius: 5px;
+                }
+
+                .btn {
+                    width: 120px;
+                    height: 38px;
+                    background: none;
+                    border: 1px solid #46A358;
+                    color: #46A358;
+                }
+
+                .btn:hover {
+                    background: #46A358;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .description {
+        .uper {
+            h4 {
+                width: 230px;
+                padding-bottom: 10px;
+                color: #46A358;
+                font-weight: 700;
+                border-bottom: 3px solid #46A358;
+            }
+        }
+
+        p {
+            color:#727272;
+        }
+    }
+}

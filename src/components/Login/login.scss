@@ -1,0 +1,43 @@
+.login_bg {
+  background: url("https://www.shutterstock.com/image-photo/entrance-into-small-flower-shop-260nw-475050499.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  z-index: 1;
+}
+.card_register {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: whitesmoke;
+  border: none;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white; /* Fallback color */
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  h3 {
+    font-weight: 700;
+    color: green;
+  }
+  button {
+    width: 200px;
+    height: 50px;
+    background: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-top: 25px;
+  }
+}
